@@ -4,7 +4,8 @@ DEBIAN_FRONTEND=noninteractive
 
 sudo rm /etc/apt/apt.conf.d/*.*
 sudo apt update
-sudo apt instal git
+sudo apt install git
+sudo apt install curl
 mkdir downloads
 cd downloads
 wget https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh
