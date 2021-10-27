@@ -8,8 +8,8 @@ sudo apt install git
 sudo apt install curl
 mkdir downloads
 cd downloads
-wget https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh
-bash Anaconda3-2020.02-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
 cd
 git clone https://github.com/fastai/fastai.git
 cd fastai/
